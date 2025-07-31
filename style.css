@@ -32,7 +32,25 @@ font-size: 40px;
 p{
     font-size: 20px;
 }
-
+.categoria-vídeos{
+    display: flex;
+    overflow-x: auto ;
+    gap: 10px;
+}
+img{
+    height:200px;
+}
+.categoria-vídeos img{
+    opacity:0.5;
+    height: 200px;
+}
+.categoria-vídeos img:hover{
+    opacity:1.0;
+    border: 3px solid #f336da
+}
+.categoria h2{
+    
+}
 .chamada-texto{
     margin-right: 1%;
     text-align: center;
